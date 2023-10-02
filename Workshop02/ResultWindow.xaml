@@ -1,0 +1,18 @@
+﻿<Window x:Class="Workshop02.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Workshop02"
+        mc:Ignorable="d"
+        Background="Aqua"
+        Title="ResultWindow" Height="231" Width="256" Closing="Window_Closing">
+    <StackPanel>
+        <Label Content="Gratulálok!"/>
+        <Label Content="Kérlek add meg a neved!"/>
+        <TextBox TextWrapping="Wrap" x:Name="tb_name" Width="169"/>
+        <ListBox x:Name="lbox" Height="62" Width="169"/>
+        <Button x:Name="bt_ment" Content="Mentés" Click="bt_ment_Click"/>
+        <Button x:Name="bt_ujgame" Content="Új játék" Click="bt_ujgame_Click"/>
+    </StackPanel>
+</Window>
